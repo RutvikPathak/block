@@ -13,24 +13,23 @@ function App() {
         </nav>
       </header>
       <main className="blog-posts">
-        <BlogPost 
-          title="First Post" 
-          date="May 31, 2024" 
-          body="This is the body of the First post."
-        />
-        <hr />
-        <BlogPost 
-          title="Second Post" 
-          date="May 29, 2024"  
-          body="This is the body of the Second post."
-        />
-        <hr />
-        <BlogPost 
-          title="Third Post" 
-          date="May 22, 2024" 
-          body="This is the body of the Third post."
-        />
-        <hr />
+        <div className="blog-post-container">
+          <BlogPost 
+            title="First Post" 
+            date="May 31, 2024" 
+            body="This is the body of the First post."
+          />
+          <BlogPost 
+            title="Second Post" 
+            date="May 29, 2024"  
+            body="This is the body of the Second post."
+          />
+          <BlogPost 
+            title="Third Post" 
+            date="May 22, 2024" 
+            body="This is the body of the Third post."
+          />
+        </div>
       </main>
     </div>
   );
