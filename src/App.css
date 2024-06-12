@@ -69,22 +69,38 @@ body {
 
 .blog-post h2 {
   margin-top: 0;
-  color: #004d40;
+  /* Removed color to use inline style */
 }
 
 .post-meta {
-  color: #00796b;
-  font-size: 0.9em;
+  /* Removed color and font-size to use inline style */
 }
 
 .post-body {
-  font-size: 1em;
-  line-height: 1.6;
-  color: #004d40;
+  /* Removed font-size, line-height, and color to use inline style */
 }
 
 hr {
   border: none;
   border-top: 1px solid #00796b;
   margin: 20px 0;
+}
+
+.like-container {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.like-button {
+  /* Removed background-color and other styles to use inline style */
+}
+
+.like-button:hover {
+  /* Removed background-color to use inline style */
+}
+
+.like-count {
+  margin-left: 10px;
+  color: #00796b;
 }
